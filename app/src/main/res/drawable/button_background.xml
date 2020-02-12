@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/colorAccent"/>
+            <corners android:radius="20dp"/>
+            <padding android:right="20dp" android:left="20dp"/>
+        </shape>
+    </item>
+    <item android:state_hovered="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/colorAccentLight"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</selector>
